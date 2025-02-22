@@ -1,0 +1,29 @@
+{
+  "name": "Blockchain News Aggregator",
+  "type": "interval",
+  "descriptions": {
+    "en": "Fetches and sends the latest blockchain news articles to the channel at regular intervals.",
+    "fr": "Récupère et envoie les derniers articles de actualités sur la blockchain à intervalles réguliers."
+  },
+
+  "settings": [
+    {
+      "key": "interval",
+      "type": "number",
+      "label": "Interval (minutes)",
+      "default": 15,
+      "required": true
+    },
+
+    {
+      "key": "source",
+      "type": "string",
+      "label": "News Source",
+      "default": "blockchain",
+      "required": true
+    }
+  ],
+
+  "permissions": ["send_messages"],
+  "data": {}
+}
