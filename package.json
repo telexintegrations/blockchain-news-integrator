@@ -1,0 +1,27 @@
+{
+  "name": "blockchain-news_aggregator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "Telex",
+    "NodeJS",
+    "Blockchain",
+    "Axios",
+    "Nodemon"
+  ],
+  "author": "Jude Kimathi",
+  "license": "ISC",
+  "description": "An interval-based integration that fetches the latest blockchain news articles and sends them to a Telex channel.",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "axios-mock-adapter": "^2.1.0",
+    "dotenv": "^16.4.7",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "telex": "^0.0.1"
+  }
+}
